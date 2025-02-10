@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "walkstop.lookback"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
@@ -113,3 +113,22 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# 한글 설정
+locale: "ko-KR"
+
+# 테마 스킨
+minimal_mistakes_skin: "default"
+
+# 블로그 구조
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
